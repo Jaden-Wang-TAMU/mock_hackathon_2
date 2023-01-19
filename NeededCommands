@@ -1,0 +1,3 @@
+npm install papaparse
+npm i -s fast-csv
+(may need to npm install --save-dev electron again after inputting the above two commands)

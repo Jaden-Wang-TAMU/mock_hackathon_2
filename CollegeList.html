@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" href="./contents/bootstrap/css/bootstrap.min.css" />
+    <script src="node_modules\papaparse\papaparse.js"></script>
+    <title>College Portal</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>   
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a href="index.html" class="navbar-brand">College Portal</a>
+        <div class="navbar">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="CollegeList.html" class="nav-link"><strong>College List</strong></a>
+              </li>
+                <li class="nav-item">
+                  <a href="CollegeSearch.html" class="nav-link">College Search</a>
+              </li>
+              <li class="nav-item">
+                <a href="Map.html" class="nav-link">College Explorer</a>
+              </li>
+              <li class="nav-item">
+                <a href="Browse.html" class="nav-link">College Browsing</a>
+              </li>
+            </ul>
+            <p class="college">
+            </p>
+    </div>
+    <script type="module" src="collegelist.js"></script>
+  </body>
+</html>
